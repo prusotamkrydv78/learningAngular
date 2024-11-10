@@ -1,0 +1,29 @@
+.cartlogo {
+  animation: animateLogo 1s ease;
+
+  animation-fill-mode: forwards;
+}
+.cart-text {
+  animation: animateText 0.5s ease;
+
+  animation-fill-mode: forwards;
+}
+@keyframes animateLogo {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(4rem);
+  }
+}
+@keyframes animateText {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes animateColothLogo {
+}
